@@ -32,13 +32,16 @@ siege_targets:
 > note: This can always be altered in the guest by the command ```sudo vi /usr/local/etc/urls.txt```
 
 now its time to launch our virtual machine through the commandline:
+
 ```Shellsession
 $vagrant up
 ```
+
 Next, ssh in our machine with 
+
 ```
 $vagrant ssh
-```.
+```
 
 ## Configure Siege strategy and attack
 
