@@ -58,8 +58,8 @@ Following variables can be changed:
 | :---     	|    ---:  |     ---: |    ---:      |
 | RANGE |  TRUE / FALSE | yes  |  if true, Siege will test all numbers of users between a interval, including the start en stop value |
 | START |  number       | if RANGE = TRUE | Start value of concurring users |
-| STOP  |  number       | if RANGE = TRUE | After wich Concurring users Siege wil stop the engage |
-| JUMP  |  number       | if RANGE = TRUE | Interval incrementation |
+| STOP  |  number       | if RANGE = TRUE | After which Concurring users Siege wil stop the engage |
+| JUMP  |  number       | if RANGE = TRUE | incremental interval |
 | CONCUSERS | number(s) | if RANGE = FALSE | Give the concurring users siege will test, divided by a space |
 | NUMBEROFTESTS | number | yes | how much each concurring user will be tested |
 | TIME | number + S/D/M | yes | how long a individual test will take |
