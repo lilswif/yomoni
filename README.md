@@ -47,7 +47,8 @@ sudo vi config.cfg
 ```
 
 Following variables can be changed:
+
 | Variable  | value(s) | required |  explanation |
 | :---     	|    ---:  |     ---: |    ---:      |
-| RANGE     |  TRUE / FALSE | yes  |  if true, Siege will test all numbers of users between a interval, including start en stop value |
+| RANGE |  TRUE / FALSE | yes  |  if true, Siege will test all numbers of users between a interval, including start en stop value |
 
