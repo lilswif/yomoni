@@ -51,4 +51,31 @@ Following variables can be changed:
 | Variable  | value(s) | required |  explanation |
 | :---     	|    ---:  |     ---: |    ---:      |
 | RANGE |  TRUE / FALSE | yes  |  if true, Siege will test all numbers of users between a interval, including start en stop value |
+| START |  number       | if RANGE = TRUE | Start value of concurring user |
+| STOP  |  number       | if RANGE = TRUE | After wich Concurring users Siege wil stop the engage |
+| JUMP  |  number       | if RANGE = TRUE | Interval incrementation |
+| CONCUSERS | number(s) | if RANGE = FALSE | Give concurring users siege will test, divided by a space |
+| NUMBEROFTESTS | number | yes | how much each concurring user will be tested |
+| TIME | number + S/D/M | yes | how long a individual test will take |
+| DELAY | number | yes | siege delay value |
+
+After saving, all u have to do is run the following command:
+
+```
+sudo ./runsiege.sh
+```
+
+The shell will ask u for a name of the html page, and asks if all variables are okay.
+After hitting `y´, its time to grab a coffee and wait till all tests are finished.
+
+## Upon completion
+on the hostmachine, go to your favorite and visit ```192.168.56.120```
+In the menu will be a page with all the results of the test.
+
+## Credits 
+
+[ bertvv ](www.github.com/bertvv) for the [ http-service ](https://github.com/bertvv/ansible-role-httpd), [el7](https://github.com/bertvv/ansible-role-el7) configuration and [ansible skeleton](https://github.com/bertvv/ansible-skeleton).
+[ Highcharts ](www.highcharts.com) for generating beautifull graphs
+[ Joe Bulldog ]( https://joedog.org/ ) for the siege loadmonitor.
+
 
