@@ -43,7 +43,7 @@ Next, ssh in our machine with
 $vagrant ssh
 ```
 
-## Configure Siege strategy and attack
+## Configure Siege Strategy and Lauch the Attacks
 
 !!! Always run the following commands run from the ```/home/vagrant/yomoni``` folder !!!
 
@@ -84,7 +84,7 @@ In the menu will be a page with all the results of the test.
 ## Credits 
 
 [ bertvv ](www.github.com/bertvv) for the [ http-service ](https://github.com/bertvv/ansible-role-httpd), [el7](https://github.com/bertvv/ansible-role-el7) configuration and [ansible skeleton](https://github.com/bertvv/ansible-skeleton). </br>
-[ Highcharts ](www.highcharts.com) for generating beautifull graphs </br>
+[ Highcharts ](www.highcharts.com) for generating beautiful graphs </br>
 [ Joe Bulldog ]( https://joedog.org/ ) for the siege loadmonitor. </br>
 
 
